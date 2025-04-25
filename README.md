@@ -9,8 +9,18 @@ This is a practice project for building and understanding **CRUD (Create, Read, 
 - Setting up an Express server
 - Handling routes for CRUD operations
 - Working with request parameters and body
+- Using the `method-override` package to simulate PATCH and DELETE in HTML forms
 - Structuring code in a modular way
-- Connecting and using data with dummy or real storage (JSON/file system/DB)
+
+---
+
+## 📝 Real-World Analogy
+
+This CRUD API mimics basic functionality of a **Quora-like post system**:
+- `POST` → Create a new post
+- `GET` → View all posts or a single post
+- `PATCH` → Edit a post (used via method-override in forms)
+- `DELETE` → Remove a post (also via method-override)
 
 ---
 
@@ -18,7 +28,7 @@ This is a practice project for building and understanding **CRUD (Create, Read, 
 
 - **Node.js**
 - **Express.js**
-- (Optional: You can add database/ORM here if used, e.g., MongoDB, Mongoose)
+- **Method-Override**
 
 ---
 
